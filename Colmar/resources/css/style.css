@@ -1,0 +1,426 @@
+html{
+    color: rgb(84, 84, 84);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    border: 1px solid lightgray;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* HEADER */
+
+#header{
+    position: fixed;
+    height: 64px;
+    width: 100%;
+    z-index: 100;
+    display: inline-block;
+    background-color: white;
+    top: 0;
+    display: flex;
+    border-bottom: 1px solid white;
+    padding-left: 24px;
+    padding-right: 24px; 
+}
+
+#header .content{
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    align-items:center;
+}
+
+#header .desktop-logo{
+    flex:1;
+}
+
+#header nav ul{
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%; 
+}
+
+#header nav li {
+    margin: 16px;
+    vertical-align: middle;
+}
+
+.header-buttons
+{
+    width: 100%;
+    padding-right: 2.5rem;
+    margin-right: 2.5rem;  
+}
+
+#header .content{
+    font-size: 1.2rem;
+}
+
+
+/* FIRST BANNER */
+
+.one-first-banner{
+    display: flex;
+    background-color: lightgray;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 65px;
+    color: black;
+    text-align: center;
+    height: 100%;
+    margin-bottom: 32px;
+    align-items: center;
+}
+
+.two-banner-image{
+    max-width: 60%;
+    width: 60%;
+    margin: 32px 24px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding: 0;
+    flex-wrap:wrap;    
+    
+}
+
+
+.three-main-title{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 24px;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+    text-align: left;
+}
+
+.three-main-title h1{
+    font-size: 3rem;
+    margin: 0;
+    color: rgb(45, 45, 45);
+}
+
+.three-main-title h3{
+    font-size: 1.5rem;
+    font-style: normal;
+    color: rgb(45, 45, 45);
+
+}
+
+
+.start-button{
+    background-color: rgb(93, 92, 92);
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/* SECOND BANNER */
+
+#second-banner{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0px 24px 0px 24px;
+}
+
+#second-banner .left-side{
+    max-width: 60%;
+    width: 60%;
+    margin: 0px 24px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-bottom: 25px;
+    flex-wrap:wrap;   
+}
+
+#second-banner .left-side h4{
+    padding:0;
+    margin:0;
+}
+
+#second-banner .right-side{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 32px;
+    height: 100%;
+    margin: 0px 0px;
+    margin-right: 24px;
+    vertical-align: middle;
+
+}
+
+.guy-reading{
+    margin-bottom: 0px;
+}
+
+.first-banner-text{
+    margin: 32px 0px;
+    vertical-align: middle;
+    padding:0;
+}
+
+.first-banner-text h2{
+    margin:0;
+    padding:0;
+}
+
+.boxes1{
+    display: flex;
+    margin: 0;
+    border: 1px solid rgb(182, 180, 180);
+    margin-bottom: 1px;
+    vertical-align: middle;
+
+}
+
+.boxes1 img{
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+.text-1{
+    width: 65%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: rgb(79, 79, 79)
+}
+
+.text-1 h3{
+    margin: 0;
+    padding: 0px;
+}
+
+.text-1 p{
+    margin: 0;
+    padding: 0px;
+    font-size: 0.85rem;
+}
+.text-1 a{
+    margin: 0;
+    padding-top: 8px;
+    color: rgb(66, 66, 252);
+}
+
+
+#Our-guest-lecture{
+    background-color: lightgray;
+}
+
+/* START LEARNING */
+
+.start-learning{
+    background-color: lightgray;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.start-learning h4{
+    font-size: 1.2rem;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.start-learning p{
+    font-size: 0.9rem;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.sl-title{
+    font-size: 1.5rem;
+    color: rgba(114, 114, 114, 0.915);
+    text-align:center;
+    margin-top:32px;
+    margin-bottom:16px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.sl-title h2{
+    padding: 0;
+    margin: 0;
+    color: rgb(53, 53, 53);
+}
+
+.sl-boxes{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.start-learning .sl-boxes #boxes2 {
+    background-color: white;
+    margin: 16px;
+    max-width: 30%;
+}
+
+.start-learning .sl-boxes #boxes2 img{
+    max-width: 100%;
+}
+
+.boxes2text {
+    margin: 16px;
+}
+
+/* LAST BANNER */
+
+#last-banner{
+    text-align: center;
+}
+
+.lb-content{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.lb-title{
+    font-size: 1.5rem;
+    color: rgba(41, 41, 41, 0.915);
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+#last-banner .lb-left-side{
+    max-width: 60%;
+    width: 60%;
+    margin: 0px 24px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-bottom: 0;
+    flex-wrap:wrap;
+    align-items: center;
+    align-content: center;
+}
+
+#last-banner .lb-left-side .video{
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 12px;
+}
+
+#last-banner .lb-left-side h3{
+    text-align: left;
+    font-size: 1.5rem;
+    color: rgb(32, 32, 32);
+    padding: 0;
+    margin: 12px;
+
+}
+
+#last-banner .lb-left-side p{
+    text-align: left;
+    padding: 0;
+    margin: 12px;
+}
+
+
+
+#last-banner .lb-right-side{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0px 0px;
+    padding: 0;
+    vertical-align: middle;
+    max-width: 40%;
+}
+
+#last-banner .boxes3{
+    display: flex;
+    margin: 0;
+    vertical-align: middle;
+}
+
+#last-banner .boxes3txt{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+
+#last-banner .lb-right-side img{
+    width: 35%;
+    margin: 16px;
+}
+
+#fisma{
+    background-color: lightgray;
+}
+
+/* FOOTER */
+
+
+#footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+}
+
+.left-footer{
+    display: block;
+    box-sizing: border-box;
+}
+
+.right-footer{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-end;
+}
+
+#footer .right-footer ul li{
+    color: blue;
+    display: inline;
+    margin: 2rem;
+}
